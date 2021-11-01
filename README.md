@@ -4,7 +4,7 @@ Senior Project
 
 
 -#include <Wire.h>
--#include <Servo.h>
+< br >-#include <Servo.h>
 
 -Servo motor;
 -byte irPinA = 3;
