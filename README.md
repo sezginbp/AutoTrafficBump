@@ -3,12 +3,11 @@ Senior Project
 
 
 
-/#include <Wire.h>
+-#include <Wire.h>
+-#include <Servo.h>
 
-/#include <Servo.h>
-
-Servo motor;
-byte irPinA = 3;
+-Servo motor;
+-byte irPinA = 3;
 byte irPinB = 4;
 byte irValA;
 byte irValB;
