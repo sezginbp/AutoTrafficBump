@@ -4,17 +4,27 @@ Senior Project
 
 
 -#include <Wire.h>
+
 -#include <Servo.h>
 
 -Servo motor;
+
 -byte irPinA = 3;
+
 byte irPinB = 4;
+
 byte irValA;
+
 byte irValB;
+
 float diff; // store timeScnd minus timeFirst
+
 float vel; // calculated speed
+
 unsigned long timeA;// IR sensor at irPinA
+
 unsigned long timeB;// IR sensor at irPinB
+
 float speedConst = 453.6; // ((distance between IR sensors in mm) x 3600)/1000)to convert mm/millis to km/h) 
                           // In This project we have 126mm between IR sensors
 void setup()
